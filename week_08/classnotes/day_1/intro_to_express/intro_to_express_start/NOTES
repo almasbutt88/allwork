@@ -1,0 +1,33 @@
+start with "npm install express" in the server folder.
+
+touch a server.js
+
+tell it you want to use express so you require express
+
+
+
+ you have to install the nodemon server with : npm install --save-dev nodemon
+
+then add this script to your package.json script object without the comment>
+
+  "server:dev": "nodemon server.js",  //new after installing nodemon 
+
+  then go to your client directory and do npm install
+  then npm start
+  and now you should have the client and the server running, have both tabs open side by side in your chrome.
+
+  cors error - cross origin response server: if you have 2 servers running on the same browser but its a hackers tool so it gets blocked
+
+  to work around that install cors with :  npm install --save-dev cors
+
+now run your server again: npm run server:dev
+
+
+const [message, setMessage] = useState(''); //we are setting the message here because we are using it in the P tag
+  useEffect(()=> {
+  fetch("http://localhost:5000")
+  .then(response => response.json) //convert to json
+  // .then (data => console.log(data)); instead of this, lets do this instead
+  .then(response => setMessage(response.message)); // this is coming from server.js line 20.
+  
+  })

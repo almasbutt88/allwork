@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Events</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1 id="heading">Welcome to Film Wishlist</h1>
+
+    <h2>Add the films you wish to watch</h2>
+    <button id="button" type="button">Click to Check System Status Before Adding Content</button>
+    <p id="button-result"></p>
+
+    <h2>Film Name</h2>
+    <input id="input" type="text" />
+    <p id="input-result"> Enter the film title as it appears in IMDB</p>
+    <h2>Release Year</h2>
+    <input id="input" type="text" />
+    <p id="input-result">What is the international release date of this film?</p>
+    <h2>Duration</h2>
+    <input id="input" type="text" />
+    <p id="input-result">What is the duration of this film in minutes?</p>
+
+    <h2>Selects</h2>
+    <select id="select">
+      <option disabled selected>What quality would you be happy to watch this film in?</option>
+      <option value="1080p">1080p and Above Only</option>
+      <option value="Potato">Potato quality is fine</option>
+    </select>
+    <p id="select-result"></p>
+
+    <h2>Forms</h2>
+    <form id="form">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name">
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name">
+
+      <button type="submit" id="submit_name">Submit Name</button>
+    </form>
+    <p id="form-result">You added the following film to your wishlist:</p>
+
+  </body>
+</html>

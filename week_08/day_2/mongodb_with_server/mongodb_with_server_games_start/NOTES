@@ -1,0 +1,14 @@
+after npm installs etc
+
+
+npm i mongodb@3.5.7  to install mongo driver in the server folder
+
+we now go to server.js 
+
+router. post() refers to POST requests and
+router. get() referes to GET request. The difference between the two is that a GET request,
+is requesting data from a specified source and a POST request submits data to a specified resource to be processed
+
+
+
+all the routers are going into sightings 

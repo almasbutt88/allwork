@@ -1,0 +1,18 @@
+
+
+@media (min-width:720px){
+    #grid-container{
+        display:flex;
+        flex-direction: center;
+    }
+}
+
+header{
+    display:grid;
+    grid-template-areas:
+    'header header'
+    'menu main'
+    'footer footer';
+    grid-template-columns: 3fr 
+    grid-;
+}

@@ -1,0 +1,30 @@
+client is react
+
+
+starting with the  server.js file:
+we got express and cors,
+
+hardcoding tea obkects
+
+then we are starting up the server with app.listen(5000, function)
+
+there is no node modules folder in the server folder
+so do npm install
+
+for our teas we are gonna do all the cruds
+localhost:5000/api/teas will return all the teas
+
+
+lets do the CRUD:
+
+// /api/teas - Index (GET)
+// /api/teas/:id - Show (GET)
+// /api/teas - Create (POST)
+// /api/teas/:id - Destroy (DELETE)
+// /api/teas/:id - Update (PUT)
+
+use imsomnia to make get and post requests without having to create a front end to test your code
+
+create new request, call it index and itiwll be a get req, then create
+
+you got two side

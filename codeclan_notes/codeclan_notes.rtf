@@ -1,0 +1,2273 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;\f2\fswiss\fcharset0 Helvetica-Bold;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Monaco;\f5\fnil\fcharset0 HelveticaNeue-Bold;
+\f6\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green213\blue156;\red22\green21\blue22;
+\red255\green255\blue255;\red78\green77\blue78;\red22\green21\blue22;\red115\green115\blue115;\red214\green0\blue72;
+\red246\green246\blue246;\red27\green31\blue35;}
+{\*\expandedcolortbl;;\csgray\c0;\cspthree\c100000\c87215\c69650;\cssrgb\c11373\c10980\c11373;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c38039\c37647\c38039;\cssrgb\c11373\c10980\c11373\c3922;\cssrgb\c52549\c52549\c52549;\cssrgb\c87843\c11765\c35294;
+\cssrgb\c97255\c97255\c97255;\cssrgb\c14118\c16078\c18431;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh14300\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  18 Oct\
+\
+Monday:\
+\
+\
+Command line basics\
+\
+Intro to programming\
+\
+Using VSCode\
+\
+Git intro\
+\
+\
+Week 1 - Intro to Python\
+\
+Week 2 - Further Python\
+\
+Week 3 - Webdev Frontend\
+\
+Week 4 - Webdev Backend\
+				\
+Week 5 - Python Project\
+																																																																											\
+\
+Markdown language - README.md \
+\
+~ Tilda - home directory\
+\
+A dot in front of a file or folder name in terminal by using the la script means they are hidden\
+\
+\
+Using a terminal will end up being faster than using GUI and going through files and folders. Once you learn the commands, its much faster and also this is how we access GIT. GIT doesn't have a GUI that is downloadable,\
+\
+Hit q to quit out of a command in terminal if you are stuck. \
+\
+Man - ls   is good for listing all the commands that are available\
+\
+- is referring to as a flag.\
+\
+Part of the course is getting used to the vocabulary. \
+\
+Mkdir to create a new directory - we don't want spaces in directory names or it ends up creating two directories\
+\
+Rm to remove a directory > rm -r < means recursive..means keep going:\
+Rm - r co... then hit tab to see suggestions and then hit enter once you select the right one.\
+ \
+Code means open VSCODE , then space then DOT means everything in this directory\
+\
+- cd - current directory\
+ - man -ls lists all commands available to you\
+ - ctrl + d - stops everything - like a running process\
+- ls - list files and folders\
+- ls -1 - list files with more details\
+- ls -al - list all files and folders and hidden ones with even more details\
+- la - same as ls -al which is to list all files and folders and hidden ones with even more details\
+- pwd - present working directory\
+- rm -r removes a file or directory recursively\
+- rm - deletes a file\
+- rmdir - deletes a directory\
+- mkdir - create new directory\
+- touch - create a file\
+- mv - move a file or rename it\
+- open - to open a file\
+- q - to quit out of a command\
+- code . - opens file in vscode\
+- cd . this directory\
+- cd .. previous directory\
+- cd ... parent directory\
+- tree - L 3 - shows you 3 levels \
+\
+Brew install tree installs the homebrew package\
+\
+\
+You can have interpreted language which is interpreted immediately like python or JS and hence a bit slower because it is read and compiled and read and compiled.\
+\
+You can also have Compiled language like Java C#, C are compiled before they are run into something called a bitecode.\
+\
+Whenever you write code you are writing it for your future self.\
+\
+REPL:\
+Read\
+Evaluate\
+Print\
+Loop\
+\
+A type error in python tells you that you are not using the correct type in your calculation\
+\
+\
+To escape from REPL, quit()\
+\
+\
+When you run a .py file, computer knows its a python file\
+\
+If you create a variable in python but it isn't used when you execute the code, it garbages it\
+\
+Variables should be named in snake_case (ie with an underscore). Classes should be named in camelCase\
+\
+\
+Highlight your code and press Command and question mark and you will comment it out\
+\
+\
+An easy way to find out if your numbers an even number is to use the modulus operator print(number_1 % 2), if the answer is 0, that means number_1 is an even number.\
+\
+\
+Strings can be CONCATENATED ie joined together using the + operator\
+\
+\
+You can click on a line and click command + question mark to uncomment it\
+\
+Git:\
+Version control software developed by Linus who developed Linux\
+\
+Go back and fix mistakes in versions etc\
+\
+Github is different to Git. Git lives on your computer\
+\
+Repos is short for repositories\
+Airbnb will have a repo for various projects and the developers will be connected to that repo from different machines \
+\
+\
+\
+Git init means initialise this repository\
+\
+Dot git reveals the git folder where git stores all the repositories\
+ \
+Gst = status\
+\
+Git add .\
+Git commit -m "adds a user to user.py" (flag m for message ) \
+\
+Git log\
+\
+Git push\
+\
+Do a git pull to pull the latest version to your machine\
+\
+\
+Home work\
+Git & GitHub Homework\
+Local\
+\'95 Create a folder in your week_01/day_1 directory\
+mkdir precourse_recap\
+cd precourse_recap\
+\
+\'95 Initialize a git repository in the folder\
+git init\
+\
+\'95 Create a new file called precourse_recap.py\
+touch precourse_recap.py\
+\
+\'95 In the file, create a simple Python guessing game using:\
+1. User Input\
+2. If-Else statement\
+\'95 Stage the file\
+git add .\
+\
+\'95 Commit the files to the repository\
+git commit -m "first commit"\
+\
+Remote - Github\
+\'95 Create a new repository\
+Local\
+\'95 Add the Github remote\
+\'95 Push to the remote repository\
+git push origin main\
+\
+\
+Day 2 - Tuesday 19 October 2021\
+\
+Learned how to move files instead of just renaming them on the spot:\
+\
+                                     Mv below file  to Tilda / folder. Important to capitalise a word if that is how its spelt in the directory o. / also important for file path\
+- mv - move a file or rename it with mv codeclan_notes ~/codeclan_work/  \
+\
+From the python_play folder, you run the following command python3 and the name of whatever file you have saved code into from vscode. Then you get to run your code from that file on the terminal.\
+If you have no code and you just want to play around with python, then just do python3 and you will get the 3 arrows >>> and you can start doing python code. quit() to get out of that and back to normal terminal commands.\
+\
+\
+Today we look at\
+\
+1 Conditionals / Control Flow - \
+2 Lists\
+3 Dictionaries\
+4 Loops\
+5 Lab\
+\
+\
+\
+\
+\
+1 - Conditionals / Control Flow\
+\
+if else statements - if something is true we execute the code if not, another piece of code. No such thing as an if loop.\
+\
+START> ASK USER FOR INPUT> ANIMAL = INPUT > IF ANIMAL CHICKEN > PRINT MESSAGE > OR END.\
+\
+Pseudocode before you actually code. Example: #SET animal = input "what animal are you". Its half code half English:\
+    #SET animal = input "what animal are you"\
+    # IF animal is  "chicken" << has to be true or false. A boolean\
+    # THEN PRINT "This is my favourite animal"\
+    # END\
+\
+When you run a script from terminal this is what happens\
+We want to talk to python3 terminal and send it the script from this file\
+\
+\
+In python, if else statements, the \{ or logic of an if statement is associated with the if statement via an indentation which makes it NESTED.\
+Once you commit, you can push to GitHub once a day. Not repeatedly\
+\
+elif is an actual thing. It means else if in python.\
+\
+      #SET animal = input "what animal are you"\
+animal = input("What animal are you?")\
+# IF animal is  "chicken" << has to be true or false. A boolean\
+if animal == "chicken":\
+    print("This is my favourite animal!")\
+elif animal == "kitten":\
+    print("I love kittens!")\
+    # THEN PRINT "This is my favourite animal"\
+    # END\
+else:\
+    print("Sad, not my favourite")\
+\
+    #ORINT "Sad, not my favourite"\
+\
+    #IF the condition is true THEN do x\
+    #Otherwise do Y\
+\
+\
+\
+Python guessing game:\
+#user input\
+user_input = input("When was Python created?:")\
+\
+if user_input == 1970:                       << this is an integer, but the input function only returns a string. So this is a false condition\
+    print("Probably right, I am not sure either")\
+else:\
+    print("No danger mate, what you on about?")\
+\
+This would always print No danger mate.... Because our input only takes a string and we are making it Evaluate against an integer. This is how we should actually do it\
+\
+#user input\
+user_input = input("When was Python created?:")\
+\
+if int(user_input) == 1970:\
+    print("Probably right, I am not sure either")\
+else:\
+    print("No danger mate, what you on about?")\
+\
+\
+\
+\
+True boolean is always with capital T.\
+\
+\
+Ternary operator is a short hand for writing a conditions. Think arrow functions or concise body arrow functions\
+\
+#Ternary Operator\
+# score = 6\
+\
+# if score >5:\
+#     print("pass")\
+# else:\
+#     print("fail")\
+\
+# another way to write the above is:\
+\
+score = 6\
+\
+# if score> 5:\
+#     result = "pass"\
+# else:\
+#     result = "fail"\
+# print(result)\
+\
+result = "pass" if score > 5 else "fail"\
+print(result)\
+#or print("pass" if score > 5 else "fail")\
+\
+Conditional operators are ==, >, <, >=, <= , !=, \
+\
+A lab is basically an afternoon of coding -\
+\
+\
+Git clone then paste the ssh key from GitHub\
+\
+\
+\
+LAB WORK:\
+\
+Control Flow/Conditionals Lab\
+\
+Lab Duration: 30 minutes\
+\
+Learning Objectives\
+\
+Practice translating a flowchart into code\
+Practice pseudocode\
+Practice conditional logic\
+Write a Python program based on the following flowchart.\
+\
+\
+\
+# Write a Python program based on the following flowchart.\
+#turn on computer\
+\
+print("Turn on your computer")\
+\
+user_input1= input("Did it boot up?:")\
+\
+if user_input1== "yes":\
+    print("Login with password")\
+elif user_input1 == "no":\
+    user_input2 = input("is it plugged in?:")\
+    if user_input2 == "no":\
+        print("please plug it in")\
+    user_input = input("Did this fix the problem?:")\
+    if user_input == "yes":\
+        print("Login with password")\
+    if user_input == "no":\
+        print("Your computer is absolutely snookered")\
+    else:\
+        print("get a new computer")\
+print("finished")\
+\
+Oh this was hard, make sure indentation is correct.\
+\
+\
+\
+2 - Lists - or arrays\
+\
+Objects or dictionaries breakdown an array and exist inside a list or array\
+	[   ]\
+ .append (only takes 1 argument)\
+ .extend (only takes 1 argument)\
+\
+You can remove an index from an array or add an index to an array and store it elsewhere \
+\
+\
+sort() - this method will arrange the values inside an array into alphabetical\
+sorted() - creates a separate sorted copy but keeps the original\
+\
+If your array is called fruit, don't store unrelated values to it. Create new arrays for different items.\
+\
+To find an index, you do print(fruits[0]) and this will find the item at index number 0:\
+fruits = ["apple"]\
+fruits.append("orange")\
+fruits.extend(["apple", "grapes", "cows"])\
+print(fruits[0])\
+\
+print(fruits[-1]) finds the last item on the index\
+\
+\
+Fruits.pop() will remove the last value inside the array\
+\
+You can also store that removed value into some other variable like extra = fruits.pop()
+\f1 \uc0\u55357 \u56397 
+\f0 \
+\
+numbers = [1,2,3, [1,2,3]] \
+The above array is okay to use in  python but in java etc it won't be because there are numbers AND an array, two different types of data being used\
+\
+\
+task_list = []\
+\
+task_list = ["make dinner", "shower", "drink protein"]\
+\
+print(len(task_list))\
+\
+To get total length of an array, use the len(task_list)\
+\
+\
+\
+\
+3 - Dictionaries or Objects\
+\
+\
+Dictionaries are made with \{\} like meals = \{ \}\
+\
+It can have a key inside like meals = \{"breakfast":"yoghurt", \
+					^^ this is the key\
+\
+\
+\
+meals = \{"breakfast": "yoghurt",\
+        "sushi": "steak",\
+        "dinner": "steak"\
+        \}\
+#breakfast is key and yogurt is value. Key and value.\
+print(meals["breakfast"])\
+\
+Key and value are important. We print a value by targeting the meal, then the key and that prints the value. You need to split the key from value with a : then a , at the end of the value if there are more values to be added\
+\
+\
+print("lunch" in meals) would actually check IF it exists, it wouldn't return the value of key LUNCH. \
+\
+Print("sushi" in meals.value) to check if the value SUSHI exists in meal.\
+\
+\
+You can add a key and value using the following:\
+meals["supper"] = "melon"\
+\
+\
+Delete a value like this:\
+del(meals["supper"])\
+\
+When you do print(list(meals)) it should print keys because they are the main info, the values are extra info. Values can exchange, keys in most cases should remain the same.\
+\
+print(meals.values)\
+\
+print(list(meals.values()))\
+\
+\
+\
+Next example: countries\
+\
+countries = \{\
+    "uk" : \{\
+        "captal": "London",\
+        "population": 60000000\
+    \},\
+    "spain": \{\
+        "capital": "Madrid",\
+        "population":45000000\
+        \}\
+\}\
+\
+In the above example, uk is a key, then that key has a value of a dictionary which contains all the rest of the data.\
+\
+\
+\
+\
+You can just keep doing print(countries["uk"]["capital]) and so on and so forth to go deeper and deeper\
+\
+\
+\
+\
+4 Loops\
+\
+print(f'you typed: \{line\}')\
+\
+The f above is to allow you to append \{line\} which is a declared variable above to be entered in this bracket. Without it you would just end up with a string "you typed: \{line\})" it would not actually contain the value of \{line\}\
+\
+\
+\
+while(True):\
+    line = input("type something")\
+    if(line.lower() == "q"):\
+        break\
+    print(f'you typed: \{line\}')\
+\
+To break this loop, you type q. And you set it up as above\
+\
+\
+chickens = ['Margaret', 'Hetty', 'Henrietta', 'Audrey', 'Mabel']\
+for name in chickens:\
+    print(name)\
+\
+This is how you print a list using FOR loops.\
+For name in chickens: print(name)\
+for naam_waghaira in chickens: print(naam_waghaira)\
+\
+\
+\
+\
+chickens = [\
+    \
+    \
+    \
+    \{'name' : 'Margaret', 'age' : 2, 'eggs':0\},\
+    \
+    \{'name':'Hetty', 'age':1, 'eggs':4\},\
+    \{'name':'Henrietta', 'age':4, 'eggs':6\}, \
+    \{'name':'Audrey','age':1, 'eggs':4\}, \
+]\
+for chicken in chickens:\
+    print(f"\{chicken['name']\} is \{chicken['age']\}")\
+\
+\
+\
+\
+The loops \
+\
+Home work a:\
+\
+stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]\
+\
+#1. Add "Edinburgh Waverley" to the end of the list\
+#2. Add "Glasgow Queen St" to the start of the list\
+#3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")\
+#4. Print out the index position of "Linlithgow"\
+#5. Remove "Livingston" from the list using its name\
+#6. Delete "Cumbernauld" from the list by index\
+#7. Print the number of stops there are in the list\
+#8. Sort the list alphabetically\
+#9. Reverse the positions of the stops in the list\
+#10 Print out all the stops using a for loop\
+\
+\
+Home work b:\
+\
+\
+\
+users = \{\
+  "Jonathan": \{\
+    "twitter": "jonnyt",\
+    "lottery_numbers": [6, 12, 49, 33, 45, 20],\
+    "home_town": "Stirling",\
+    "pets": [\
+    \{\
+      "name": "fluffy",\
+      "species": "cat"\
+    \},\
+    \{\
+      "name": "fido",\
+      "species": "dog"\
+    \},\
+    \{\
+      "name": "spike",\
+      "species": "dog"\
+    \}\
+  ]\
+  \},\
+  "Erik": \{\
+    "twitter": "eriksf",\
+    "lottery_numbers": [18, 34, 8, 11, 24],\
+    "home_town": "Linlithgow",\
+    "pets": [\
+    \{\
+      "name": "nemo",\
+      "species": "fish"\
+    \},\
+    \{\
+      "name": "kevin",\
+      "species": "fish"\
+    \},\
+    \{\
+      "name": "spike",\
+      "species": "dog"\
+    \},\
+    \{\
+      "name": "rupert",\
+      "species": "parrot"\
+    \}\
+  ]\
+  \},\
+  "Avril": \{\
+    "twitter": "bridgpally",\
+    "lottery_numbers": [12, 14, 33, 38, 9, 25],\
+    "home_town": "Dunbar",\
+    "pets": [\
+      \{\
+        "name": "monty",\
+        "species": "snake"\
+      \}\
+    ]\
+  \}\
+\}\
+\
+# 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)\
+# 2. Get Erik's hometown\
+# 3. Get the array of Erik's lottery numbers\
+# 4. Get the species of Avril's pet Monty\
+# 5. Get the smallest of Erik's lottery numbers\
+# 6. Return an array of Avril's lottery numbers that are even\
+# 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers\
+# 8. Change Erik's hometown to Edinburgh\
+# 9. Add a pet dog to Erik called "Fluffy"\
+# 10. Add another person to the users dictionary\
+\
+\
+\
+Home work c:\
+\
+united_kingdom = [\
+  \{\
+    "name": "Scotland",\
+    "population": 5295000,\
+    "capital": "Edinburgh"\
+  \},\
+  \{\
+    "name": "Wales",\
+    "population": 3063000,\
+    "capital": "Swansea"\
+  \},\
+  \{\
+    "name": "England",\
+    "population": 53010000,\
+    "capital": "London"\
+  \}\
+]\
+\
+# 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.\
+# 2. Create a dictionary for Northern Ireland and add it to the `united_kingdom` list (The capital is Belfast, and the population is 1,811,000).\
+# 3. Use a loop to print the names of all the countries in the UK.\
+# 4. Use a loop to find the total population of the UK\
+\
+\
+Plus the homework from slack tab I think loops.md\
+\
+\
+stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]\
+\
+#1. Add "Edinburgh Waverley" to the end of the list\
+stops.append("Edinburgh Waverly")\
+\
+#2. Add "Glasgow Queen St" to the start of the list\
+stops.insert(0, "Glasgow Queen St")\
+\
+#3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")\
+stops.insert(4, "Polmont")\
+\
+#4. Print out the index position of "Linlithgow"\
+print(stops.index("Linlithgow"))\
+#5. Remove "Livingston" from the list using its name\
+stops.remove("Livingston")\
+\
+#6. Delete "Cumbernauld" from the list by index\
+del stops[1]\
+\
+#7. Print the number of stops there are in the list\
+print(len(stops))\
+#8. Sort the list alphabetically\
+stops.sort()\
+print(stops)\
+#9. Reverse the positions of the stops in the list\
+stops.sort(reverse = True)\
+print(stops)\
+#10 Print out all the stops using a for loop\
+for cities in stops:\
+    print(cities)\
+\
+\
+Day 3: Wednesday 20 October:\
+\
+\
+Yesterday was super hard and really fast paced so really struggled and tried to play catch up.\
+\
+Today hopefully we have a chance to go over what we learned.\
+\
+Today we are learning:\
+3.1- Functions\
+3.2- Pair programming\
+3.3- Functions lab\
+3.4- Searching lists\
+3.5- PDA induction\
+\
+\
+\
+\
+\
+\
+3.1 Functions\
+\
+Can be executed called invoked. \
+Think of a function like a magic black box that different arguments/parameters go into and it gives a different output based on those arguments that are passed into it. The function or the black box remains the same. It can be reused again and again.\
+\
+Argument has a value, parameter is in the brackets like (a, b) and parameters are defining how many arguments there should be etc\
+\
+\
+\
+\
+\
+\
+\
+Function signature is name of function     def sum   and list of parameters (a,b):\
+\
+\
+#Define a function\
+def sum(a, b):\
+    # total = a +b\
+    # return total    or you can do it as follows\
+    return a+b\
+\
+result = sum(3, 5) \
+result_2 = sum(4, 9)\
+# 3 is going to map to a and 5 will map to b but it wont print anything just yet\
+print(result)\
+print(result_2)\
+\
+\
+\
+def func_return_multi(a, b):\
+    return a+b, a*b, a/b\
+#Tuple\
+result = func_return_multi(5, 9)\
+print(type(result))\
+\
+Tuple is like a list, a way to store multiple values inside a variable.\
+\
+Def count_Eggs(list):\
+total_eggs = 0\
+\
+	for chickens in list:              so this is a for loop. Its saying for variable chickens in a declared list previously, run the following logic for every key (chicken) in the list. \
+total_eggs += chickens["eggs"].             Here,  += will add one to the value of eggs, and run the \
+chickens["eggs"] = 0			here we are setting the eggs value to 0 as eggs have been collected so in real world the eggs should no longer be there.\
+\
+\
+Return f"\{total_eggs\} eggs collected".   F is for formatting. To tell it that we are using 2 different types and returning them as a string but to return the value of \{total_eggs\}. \
+You could do it without the f" but that would look like this: \
+\
+Return str(total_eggs) + "eggs collected". If you just did total_eggs + "eggs collected", it would return a types error as you are concatenating two different data types together. That can only work with strings, so therefore you have to do the type conversion as str(total_eggs) or use the f method as return f"\{total_eggs\} + eggs collected".\
+\
+\
+print(total_eggs)\
+\
+\
+\
+\
+\
+ #Define a function\
+# def sum(a, b):\
+#     # total = a +b\
+#     # return total    or you can do it as follows\
+#     return a+b\
+\
+# result = sum(3, 5) \
+# result_2 = sum(4, 9)\
+# # 3 is going to map to a and 5 will map to b but it wont print anything just yet\
+# print(result)\
+# print(result_2)\
+\
+def func_return_multi(a, b):\
+    return a+b, a*b, a/b\
+#Tuple\
+result = func_return_multi(5, 9)\
+print(result[2])\
+\
+\
+\
+\
+\
+\
+\
+3.2 Pair Programming & 3.3 Functions Lab\
+\
+\
+\
+One engineer writes, the other dictates. Both continuously reviews.\
+\
+\
+We learned to write functions to pass set tests, then we also created tests. Did it as a pair with Graeme so don't know how well I would do on my own. Hopefully there is homework to do on this.\
+\
+\
+Range function is [0:3] and if your word is January, it would only print Jan, as it goes 0 1 2 and then stops before it gets to 3rd.\
+\
+Return "".join(reversed(str))\
+Return [::-1] - usually needs to be explained to people\
+\
+.join is used for strings mainly.\
+\
+If you write something fancy, then make sure you write comments to explain what you have written. You have to be able to explain \
+\
+\
+3.4 Searching Libraries\
+\
+Homework\
+\
+3.5 Induction\
+\
+This will be a test that we need to do in order to get our SQA certificate\
+\
+The PDA submission isn't graded but has a pass fail and you need to get 60% and 45 min per test.\
+\
+Submissions have to be in by end of week 14.\
+\
+How many tests?\
+\
+Qualification is based on three units:\
+\
+Analysis & Design\
+	Focused on design and structure\
+Implementations and Testing\
+	Coding and testing\
+Projects\
+	Combination of Analysis and Design and Implementation and Testing\
+\
+\
+\
+\
+Home work for next day is to read the debugging.md and using_loops_to_search_lists.md\
+\
+Also, submit yesterday's home work on for loops and what not\
+\
+\
+Thursday 21 October 2021:\
+\
+4.1 Debugging\
+4.2 Modules and Packages\
+4.3 Lab\
+\
+\
+\
+\
+Tip - cmd + A and then cmd + alt + L can be a quick fix. cmd + [ or ] indents highlighted text or current line left or right.\
+\
+\
+Single responsibility is that functions should be small and should only do one thing each. Makes it easy to isolate the problem to one function instead of going through lots of complicated functions or one big function that does 10 things.\
+\
+\
+Break point is something that puts a stop in your code so you can start digging around and finding the problem \
+\
+\
+First you import pdb. Then you add a line in your vs code pdb.set_trace()\
+\
+n = next line  c = continue  h = help\
+\
+From Src.python_functions_practice import*\
+\
+\
+\
+Src dot makes it look in THIS directory.\
+\
+Module is a python file\
+Package is a directory of python\
+\
+\
+You can do > >.   import calculator but then you have to do print(calculator.add(10, 20) \
+You can do an alias import as follows: import calculator as c\
+And then you can do print(c.add(10, 20)\
+If you do: from calculator import * then you can jut do print(add(10, 20) \
+You can also do: from calculator import add, subtract if you only want to import two functions and not all functions from your calculator file\
+\
+__init__ files are old python files but can be used to restrict what people can import from a directory\
+\
+\
+\
+\
+\
+Create a function for this test:\
+\
+ # 3. For a given person, check if they like a particular food\
+  # (e.g. the function likes_to_eat(self.person2, "bread") should return True, likes_to_eat(self.person3, "spinach") should return False)\
+  @unittest.skip("delete this line to run the test")\
+  def test_person_likes_food__True(self):\
+    self.assertEqual(True, likes_to_eat(self.person2, "bread"))\
+\
+\
+def likes_to_eat(person, food):\
+    snacks = person["favourites"]["snacks"]\
+    likes_food = False\
+    for snack in snacks:\
+        if snack == food:\
+            likes_food = True\
+    return likes_food\
+\
+\
+\
+ Okay so looking at the function above, we introduced 2 parameters because the test is testing whether a person likes a food. That's two parameters.\
+Then to make the list easy to access, we make snacks = person["favourites"]["snacks"]\
+Then we do a for loop so the function can look through every person, as for snack in snacks:\
+									if snack == food:\
+									return True\
+\
+\
+\
+\
+\
+\
+This was absolutely shit. On my own I couldn't complete the lab, being pared with a jahil ruined it.\
+\
+\
+Catch up work:\
+Home work, try and do the Scooby doo test functions on your own at the weekend. Tried and not much understood.\
+Upload home work from day 2.\
+\
+Actual homework to be done for Monday:\
+Do the pet shop home work for weekend.\
+\
+Week 2: Monday 25 October -\
+\
+Today\
+\
+2.1.1 Intro to Classes\
+\
+2.1.2 Diagrams\
+\
+2.1.3 Lab\
+\
+\
+I struggled with for loops last week and the pair programming and caught up with that over the weekend but couldn't complete the homework\
+\
+\
+Intro to Classes\
+Classes are a label you can give to something. It's a nutshell or a template. \
+\
+\
+Everything with a dot in front is a method in python. Like .append or .change_colour() and it is attached to the class\
+\
+len() on other hand is a function.\
+\
+The __init__ file lets python know you will be importing stuff 	\
+Only time you need self is in the class. When you are working in the app.py file, you use the what self.balance points to. In this case, we called it balance.\
+\
+\
+Class is a template. A blue print.\
+\
+Object is a representation of a class. An interpretation of a class.\
+\
+\
+\
+\
+2.1.2\
+\
+Diagrams\
+\
+UML = unified modular language - code into diagram form. Before you start writing code. Can go on for weeks in production.\
+\
+You can check and go back to your code and come back to your diagram and do some refactoring.\
+\
+Visual representation of what an app looks like\
+How many classes, properties, methods, how will they relate to each other\
+\
+\
+def__init__\
+\
+Def is a constructor function. Python does it with a def __init__\
+\
+Home work = \
+\
+Optional = Pick something / object and create objects out of it. You can create tests and create your own class and objects. Chair / bus and room\
+\
+week_02 > day_1 >> home work>> Multiple classes.md is the homework assignment\
+\
+Draw a diagram for homework on miro or draw.io etc and upload that. Draw it on paper first and then transfer it on a whiteboard and then publish it as a repository\
+\
+\
+\
+Week 2 Day 2: 26 October\
+\
+Today we are looking at Classes. Separation of concerns. Single Responsibility.\
+\
+So in your app.py you import other classes which then allows you to define those methods such as Engine() and Gearbox () Gearbox ()\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Two important things to remember: how to check length of something len(self.pets) and that self.pets is a list. \
+How to add to a list   which is by self.pets.append(new_pet).  This dot append feature is very handy\
+    def pet_count(self):\
+        return len(self.pets)\
+\
+    def add_pet(self, new_pet):\
+        self.pets.append(new_pet)    \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+    def reduce_cash(self, reduction):\
+        self.cash -= reduction\
+\
+\
+\
+Homework: Read Testing with Python in homework_testing /testing.md and submit whatever tasks you do from the instructions\
+\
+Also, try doing your bus stop exercise from your lab on your own\
+\
+\
+\
+rm -rf .git to remove a file from git main\
+rm -rf .git\
+\
+Git clone and paste sshh link - copy files from a git repository\
+\
+\
+Week 2 day 3 Wednesday 27 Oct:\
+\
+Today:\
+\
+2.3.1.  Setting up Testing\
+\
+2.3.2  Lab\
+\
+2.3.3 Inheritance\
+\
+\
+Setting up all the imports etc and setting up for the code that you are going to write later on is Boilerplate code.\
+\
+If __name__ == "__main__":\
+	unittest.main()\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Assertion error is usually when it compares two things. So problem is with the body of the function in your source file ie pub.py \
+\
+\
+\
+\
+\
+\
+\
+\
+Week 2 day 4\
+\
+2.4.1\
+\
+Inheritnce Teach Back\
+\
+25 mint o prepare a lesson (with examples) to teach to the rest of the class.\
+\
+Questions to prompt you:\
+\
+\
+What are the 4 Pillars of OO?\
+\
+\
+Encapsulation - idea of this is to wrap the data and the methods within one unit, object or section of your code. It is not within the scope of other objects so therefore the data cannot be accessed by other objects and can be seen as protected.\
+ \
+\
+Inheritance - is where a class inherits all of its attributes and methods from another class. So you have a parent and a child class. Example Person, Student.\
+\
+\
+Polymorphism - allows objects of different types to be accessed by the same interface, function or operator. A simple example of it is the + sign. It can be used to carry out an addition between integers and used for concatenation in strings. len(function) is another example of polymorphism. It will print a different output depending on the data set you use it on, example tuple, list, dictionary. print(len("Programiz"))\
+print(len(["Python", "Java", "C"]))\
+print(len(\{"Name": "John", "Address": "Nepal"\}))\
+\
+\
+Abstraction - is used to hide the inner functionality of a function from the user. A user can perform basic functions with it but does not know exactly how the function performs the operation. A recent example of that would be in the fuzz buzz example we saw with the * multiplication operator.\
+\
+\
+\
+\
+Describe Inheritance\
+\
+Inheritance is where one class can inherit methods, attributes and properties of another class. Example, your parent class could be called Person or human. Child class could be student, doctor which inherits all the properties and parameters of the parent class, saving us from having to write out the person class again and again.\
+\
+\
+Why can it be useful?\
+\
+It is useful for a few reasons, it allows code reusability, saving time, your code can represent real life relationships between things and inheritance is transitive which means all the sub classes in the child class will also inherit the parent class properties, saving you even more time.\
+\
+\
+Draw a class diagram that includes inheritance\
+\
+\
+\
+Create a code example of inheritance (you could use Vehicle, Car, Motorbike or think of your own)\
+\
+What is a super-class?\
+\
+What is a sub-class?\
+\
+What is overriding?\
+\
+What does the super keyword mean?\
+\
+What are the problems with inheritance?\
+\
+\
+\
+\
+\
+Today we cover:\
+\
+1 inheritance\
+\
+2.4.2 list comprehension\
+\
+2.4.3 python functional methods\
+\
+2.4.4 design things\
+\
+\
+\
+\
+\
+\
+2.4.2 list comprehension:\
+\
+numbers = range(1, 11)\
+even_squared = [num * num for num in numbers if num %2 == 0]\
+#above you can also do for num in range(1, 11) instead of numbers\
+# for banana in list or range\
+#\
+\
+# the above one line can be written in one line or as below neither is better or worse:\
+\
+# for num in numbers:\
+#     if num % 2 == 0:\
+#         even_squared.append(num * num)\
+# print(even_squared)\
+\
+\
+\
+\
+#part 1\
+ages = [5, 15, 64, 27, 84, 26]\
+\
+\
+# Return a list of only the odd ages.\
+\
+for num in ages:\
+    if num % 2 != 0:\
+        print(num)\
+\
+# or you could do the following if doing single list comprehension\
+\
+odd_ages = [num for num in ages if num & 2 != 0]\
+print (odd_ages)\
+    \
+\
+#part 2\
+chicken_names = ['Hen Solo', 'Cluck Norris', 'Hennifer Lopez', 'ChewPekka', 'Feather Locklear']\
+# Return a list with chickens whose name is more than 10 characters\
+super_chicken = [name for name in chicken_names if len(name) > 10]\
+print(super_chicken)\
+\
+# Return a list of chickens whose name starts with the letter H\
+\
+#part 3\
+\
+words = ['The', 'quick', 'brown', 'fox', 'jumped', 'over', 'the', 'lazy', 'dog']\
+\
+start_h = [name for name in chicken_names if name[0 =="H"]]\
+print(start_h) \
+\
+words = ["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]\
+# Build a new list, with the first letter from each word\
+# Convert each letter to lower case\
+# Expected output: ["t", "q", "b", "f", "j", "o", "t", "l", "d"]\
+\
+# Hint: Strings in Python work as if they were a tuple full of characters. How would you\
+\
+letters = [word[0].lower() for word in words]\
+print(letters)\
+\
+\
+Functions like filter() or map() it will need to return an object, It won't give you readable data. You need to extract it yourself using the list function like print(list(map(function, list or iterable)\
+\
+\
+\
+2.4.4 Design thinking\
+\
+\
+\
+\
+\
+Apple were the first company to put the user first and ask who do we design for=\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+2 separate things:\
+\
+PDA assignment due in next Thursday.\
+\
+\
+\
+Homework is the OO Codeclan Caraoke CCC ? Maybe. Its on git. \
+\
+\
+Paste __pycache__ in your .gitnore file.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Week 3 Day 1 - Monday 1 November\
+\
+HTML - Hypertext Markup Language\
+\
+\
+\
+Semantic HTML > meaning. The tags mean something. Right tags for right things.\
+\
+HTML5 is the current version by the W3 standards committee. All browsers are to stay up to date with this.\
+\
+\
+\
+Pda homework, function, function using the list and the list. That's the three things you got to show.\
+\
+\
+How to target an element in css\
+Target body\{\}\
+\
+To target class element = .header\
+\
+To target id element = #variable_name\
+\
+ID is the most important and it overrides everything\
+\
+Margin outside the box.\
+Padding inside the box.\
+\
+\
+PDA homework:\
+\
+\
+\
+# IT.5 #*An List in a program\
+\
+# *A function that uses the List\
+\
+# *The result of the function running\
+\
+\
+*A Dictionary in a program\
+\
+*A function that uses the Dictionary\
+\
+*The result of the function running\
+\
+\
+Week 3 day 2"\
+\
+UX - User experience - how does a product make you feel - about solving problems and generating positive emotions while doing so.\
+\
+The UX process\
+Discovery Phase\
+Needs and pain points identified\
+\
+Design Phase\
+Design phase is where you will try to answer every unanswered question from the Discovery phase - visually\
+\
+Testing Phase\
+Test all assumptions you made based on the previous 2 phases.\
+\
+\
+Create a web site - my journey to becoming an Associate Software Developer\
+\
+Design Principles:\
+\
+Good UX design is\
+\
+Accessible\
+Consistent\
+Clutter-free\
+Easy to navigate\
+Hard to make mistakes\
+Easy to find help\
+In the users language\
+Familiar\
+Testable\
+\
+Sketching\
+Wire framing - done on Figma, marvel, powerpoint keynote, adobe illustrator\
+\
+Fidelity - the degree of detail:\
+Get your ideas in front of people asap\
+\
+\
+\
+\
+\
+\
+\
+\
+Task-\
+You are a tourist who wants to see Glencoe\
+Visit Traveline Scotland and go to the journey Planner\
+Find a way of getting to Glencoe from Edinburgh\
+4: answer the following\
+\
+\
+A What's good about this experience -\
+\
+ dates and times were populating automatically. That was okay. When returning search results, it gives you option to pick earlier or later date. Breakdown of journey is detailed, tells you where you need to go, how long it will take you to walk to the bus station from the train station etc. shows you the map.\
+Links to train station and website for a journey are linked so you can click and go straight to the website.\
+\
+\
+B What's bad about this experience - \
+\
+No option to add a third destination or a stop over.\
+\
+Separate search required to add a third destination.\
+\
+\
+\
+\
+\
+D What are the most important things to get fixed first-\
+\
+When typing in from or destination, the auto-text population doesn't work. When you click search, that's when the auto populate pops up and it forces you to select the right location.\
+\
+Edinburgh Flag - not very clear what the options are for Edinburgh, you can tell what a bus or a train is, but then there are symbols/icons that make no sense. Like a guy standing next to a flagpole, a flag, location markers, \
+\
+Gives you too many options to pick from. Some of these options don't even make sense, its giving us lots of choice at Glencoe and we don't even know much about Glencoe.\
+\
+Not offering a return journey. After a lengthy a search, no results. Doesn't suggest alternatives.\
+\
+\
+\
+\
+Flex box for smaller items on your webpage, CSS grid is for larger items on the page\
+\
+\
+\
+\
+\
+@media (min-width:720px)\{\
+    #grid-container\{\
+        display:flex;\
+        flex-direction: center;\
+    \}\
+\}\
+\
+header\{\
+    display:grid;\
+    grid-template-areas:\
+    'header header'\
+    'menu main'\
+    'footer footer';\
+    grid-template-columns: 3fr \
+    grid-;\
+\}\
+\
+\
+\
+\
+\
+\
+\
+Week 3 Day 3 Wednesday\
+\
+Today\
+Flask\
+Ninja\
+Lab\
+Homework\
+\
+\
+Model is where your classes are, queries, SQL\
+Controller is where your logic is, path set \
+\
+To install flask, dp pip3 install Flask\
+\
+\
+ export FLASK_APP =app.py\
+This is your app.py >\
+\
+\
+from flask import Flask\
+\
+app = Flask(__name__) #__name__ is a preexisting variable, when you use flask here, you talking about the app module\
+\
+from controllers import controller\
+\
+if __name__ == '__main__':\
+    app.run(debug = True)\
+\
+\
+\
+This is your controller.py file:\
+\
+The first @app.route is always /. This is your entry point\
+\
+from app import app\
+\
+@app.route('/') # @ is called the creator\
+# http://127.0.0.1:5000/\
+def index():\
+    return 'Hello, beauty!'\
+\
+@app.route('/<name>') #<name> is a placeholder. name it whatever you want\
+# http://127.0.0.1:5000/Nicole      \
+def greet(name):\
+    return f"Hello, \{name\}"\
+\
+\
+\
+\
+If you create a file with . In front of it, that stops git from pushing it up to a repo. All password files are .something\
+\
+\
+1 request comes into web server\
+2 controller decides which function to run\
+3 render_template (or a relevant argument) is called and creates a valid html doc \
+4 html is sent back to browser\
+\
+\
+Homework for weekend is Rock Paper Scissors.\
+\
+You need to install psycopg\
+\
+Write python function to return player 1 or 2 as winner.\
+Get the logic done first before you go onto do the flask stuff.\
+\
+\
+Week 4 day 3 - Wednesday \
+\
+Missed Monday and Tuesday \
+\
+\
+This is project week:\
+\
+\
+Repository defines functions, controller runs them.\
+\
+This is the order in which we created files and folders>\
+Db\
+Controllers\
+Models\
+Repositories\
+Templates\
+app.py\
+.flaskenv\
+fake_db.py\
+\
+\
+\
+Week 4 Day 4:\
+\
+PDA guidance part 1:\
+\
+Object diagrams: class with object, second class with object and the association of objects with each other\
+\
+Acvitivty diagrams: flowchart to represent the flow from one step in one activity to another. It should include lines with arrows, rounded rectangles for actions, diamonds for decisions or if else statements as that's where your flowchart will fork into (if okay, go to next action, else do something else) black circle start of the workflow, encircled black circle as the end point.\
+Action starts with the class and goes to the object? \
+\
+Implementation constraints plan: you need to submit about how you will deal with a problem like laptop dying:\
+\
+Constraint Category		implementation constraint 		solution\
+Hardware problem			what could be constraint on product	how to fix?\
+				why is it a problem?\
+\
+Performance requirements\
+\
+Persistent storage and transactions\
+\
+Usability 			is it responsive\
+\
+Budgets\
+\
+Time limitation\
+\
+\
+----------\
+User sitemaps\
+\
+Sitemap is a page on your site that links to important areas and content. Sitemaps help your visitors explore your website.\
+\
+User sitemaps should:\
+Show the important parts of your site\
+Make finding information your site easier\
+Break it up into more than page if there are too many links\
+\
+		homepage\
+About	portfolio	locations	contact\
+\
+History	design	portfolio\
+\
+Staff	web	Vancouver\
+\
+	photography\
+\
+\
+One week to do the PDA - deadline: Friday - 19 November 2021.\
+\
+\
+\
+---\
+Project:\
+\
+Think about the user\
+\
+\
+Project must be built using only:\
+Html css\
+Python\
+Flask\
+postgreSQL and psycopg\
+Don't use authentication . Assume user already has secure access to the page.\
+\
+Make lots of sensible commits. 50 plus commits for the whole projects. \
+\
+Minimum MVP is minimum viable product. You must go beyond these specifications and complete all extensions.\
+\
+Submit a link to your GitHub repo through the homework submission form as soon as the rep has been created. You must submit your repo tomorrow so instructors can keep an eye on it.\
+Code will be reviewed with an instructor on Thursday.\
+\
+Presentation on Thursday 18th.\
+10 minus to present your work, with 5 minutes for questions.\
+\
+You will be showing your sketches, notes, diagrams, wireframes and user planning.\
+Demo your app functionality.\
+Talk about code that you are proud of.\
+Highlight your main learning points.\
+\
+Don't talk through every line of code and don't go over the time limit.\
+\
+\
+Asking for help: on your own mostly as the focus is self learning. In your job, other people's job isn't to fix your bugs.\
+\
+Ask your colleagues first.\
+\
+Before asking, you should be able to answer the following, what are you trying to achieve, what do you think the problem is, what have you tried so far, what did google say about your errors.\
+\
+Attendance: will be here every morning doing stand up etc. afternoons are more flexible.\
+\
+Multiple projects to choose from. By Friday the 12th Nov you need to tell the instructors which project you are going for. \
+Gym one has many to many association so this is tricker but this is the one you want to do so you need to get started on that one.\
+\
+You will need to do your preparation before hand and plan ahead which can also be submitted for PDA.\
+You can import pdbtrace() function\
+\
+Then invoke that in your code as pdb trace()\
+\
+Then in your terminal do pdb trace().__dict__\
+\
+\
+Pda assignment \
+\
+Comment out the wrong part of code, don't fix it in file (part 2 game)\
+\
+Card_game: find the wrong code, fix it for test to pass.\
+\
+Upload to GitHub and submit repo via homework form.\
+\
+\
+Week 6:\
+\
+\
+Feedback on the project, what went well, what needs improvement and what commit to do for the next sprint?\
+\
+\
+I was able to bridge the gaps in my knowledge the day before my presentation, that went well. Presentation too.learnt a lot.\
+\
+\
+What needs improvement:\
+\
+Time management \
+Resources\
+Efficiency\
+Planning\
+Css\
+\
+\
+\
+\
+Commits to make for next sprint:\
+Time management\
+Planning\
+Make sure I have the right coding skills\
+Address any knowledge gaps well in advance of a project\
+Do homework\
+\
+Day 1: 									JAVASCRIPT\
+\
+The syntax will be different but the principles will be the same most of the times.\
+\
+\
+\
+JS is an ECMAScript language. ES8 is the current version. ES is a general purpose programming language. JS is an interpretation of it.\
+\
+Node allows js to be run as backend. It is an engine that runs javascript for us in the backend.\
+\
+\
+\
+\
+\
+JavaScript wraps up primitive values in objects so we are able to call methods on them?\
+\
+Var myname = "Almas;\
+Var myNumber = 10;\
+\
+Var myNumber = Number(10);  << this creates a class of Number, makes myNumber an object.\
+\
+\
+String() constructor creating objects?\
+\
+Undefined when used with Boolean() function. And why does 2+ banana not work in Boolean?\
+\
+\
+\
+Homework is to comment in the Agatha christie homework file, predict the verdict and comment what you think it will output based on your knowledge on\
+Scopes etc\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Week6 day 2:\
+\
+Let's take a minute a to talk about the version numbers that we can see in the package.json and package-lock.json and what they mean.\
+\
+"version": "1.0.0"\
+The first thing that you might notice is that they're split in to three distinct parts. We can refer to these parts (from left to right) as the major, minor and patch version numbers. These numbers are incremented each time a new version is released.\
+\
+The patch release number is incremented if only backwards compatible bug fixes are included in this version.\
+\
+The minor release number is incremented if a substantial amount of new functionality or improvements are added in this version. A minor release may also include patch level changes. The patch version will always reset to zero when a new minor version is released.\
+\
+The major release number is incremented when backwards incompatible changes are released. A major release may also contain both minor and patch level changes. The patch and minor versions will always reset to zero when a new major version is released.\
+\
+\
+Week6 day 3:\
+\
+High Order Functions - the most powerful thing about javascript\
+function1(function2())\{\
+Return function3\
+\
+\
+Make your own example of the following high order functions:\
+\
+forEach()\
+map()\
+filter()\
+reduce()\
+YourOwn\
+\
+\
+\
+\
+\
+Week6 day 4: the Dom!\
+\
+Events\
+Events lab\
+\
+\
+\
+\
+Week 7 day 1:\
+\
+\
+\
+\
+\
+React Intro\
+\
+State / Props\
+Multiple Components\
+\
+\
+\
+		\
+\
+\
+\
+\
+Commentbox holds all the data. But no props\
+\
+Props are to spread the data around. No props at the top. They are passed down the way. \
+\
+State another name for data and it is immutable and changeable and its as high as possible.\
+\
+\
+Comment list has no state, takes an array of data in our comment box example, props will be the array or data, and state will be none.\
+\
+Comment itself has no state again. Getting each component and styling it individually.\
+\
+Rendering the comment box renders comment list which renders comment.\
+\
+\
+Today we are doing comment form.\
+\
+It will have a state Author and Text\
+Props will be handleCommentSubmit(), this function will cause a render in the CommentBox at the top, and it will invoke that and cause the data to change. Normally the data in comment box does not change. \
+\
+\
+\
+So next step is to write the comment form in CommentForm.js and then export it to comment box. Import it in comment box\
+\
+\
+Testing:\
+Enzyme : unit testing\
+Cypress: End to end testing\
+\
+Enzyme is a bit like mocha \
+\
+\
+\
+Week7 day_3\
+\
+How do we tackle a shopping list in React?\
+\
+At the top you have app.js\
+Then you have your shopping list which contains the state or data which will be an Array \
+\
+Today we look at how to get data from a DB instead of hard coding it.\
+\
+Array sitting in a database\
+\
+We then need a shopping list item at the next level down as many components as there are items in the Array\
+\
+Shopping list at the top needs some kind of a prop to display itself.\
+\
+\
+Props that will be passed down to shopping list components \
+\
+We will need a form which will be another component and it will have its own state and \
+\
+Needs a function to be passed down to it so it can call it from down below but it will be executed at the top level\
+\
+The form calls that function at a later date. The context is up at the shopping list top level box.\
+\
+Props it will have are addItem()\
+\
+Lets code then - first step npx create-react-app shopping_list\
+\
+\
+Hooks:\
+We have already used useState()\
+useEffect() // we can hook into functionality of react that's why they are called hooks\
+\
+They always begin with USE\
+\
+useEffect() we can pass it a function to run it as a side Effect, main effect is going to be a side effect of a Render\
+Render happens every time the state updates.\
+Side effect is the function that we pass to useEffect\
+\
+\
+\
+APIs:\
+Application Programming Interface\
+\
+API sends back some data instead of functions in our case, in the form of JSON, looks like JS and its a bunch of strings\
+\
+We can then turn the strings into JS objects.\
+\
+We copy a url an put it into browser, we are making a request to the browser,\
+We get key value pairs and there can be arrays. Its an object which contains message and status. Message is a url and status is "success". Not all APIs return message and status.\
+\
+Front end might be react, iOS, android, we request APIs to send back some data.\
+\
+\
+\
+Munros \
+\
+Munro Container has State Munros >>> <MunroList has props Munros >>>> MunroListItem has props of one Munro each\
+\
+\
+\
+\
+\
+Week 8 day 1:\
+\
+Intro to Express\
+\
+RESTful API\
+\
+MongoDB\
+\
+Full Stack JS prep\
+\
+\
+\
+\
+Homework review:\
+\
+React is a declarative language, we are declaring how we want our app to look.\
+\
+\
+\
+\
+The process for a full stack react app:\
+\
+# install sequence\
+\uc0\u8203 \
+## create main folder\
+\uc0\u8203 \
+## in main folder:\
+### npx create-react-app client\
+### mkdir server\
+\uc0\u8203 \
+## in client folder:\
+### delete .git\
+<!-- ### npm install --> not needed\
+\uc0\u8203 \
+## in server folder:\
+### npm init -y\
+### npm install express\
+### npm i mongodb@3.5.7\
+### npm i cors\
+### touch server.js + boiler plate with require express, app.listen\
+### npm install --save-dev nodemon\
+### package.jspn -> scrips add dev:\
+<!-- ### npm install --save-dev cors --> not needed\
+### add route in server.js\
+### mkdir db -> touch seds.js\
+\uc0\u8203 \
+# then:\
+## in main folder:\
+### git init\
+### git add .\
+### git commit -m"first commit"\
+### mongo < seeds.js\
+\uc0\u8203 \
+### boilerplate App.js with useEffect\
+\uc0\u8203 \
+\
+\
+\
+\
+Git tutorial:\
+\
+Git checkout -b feature/add_console_log // it will switch to a new branch. Original branch is still there.\
+\
+Make change to your code and do a git get and it acknowledges there's a change with a yellow cross\
+\
+Git push origin <name of the branch> in this case is feature/add_console_log\
+\
+PR is a pull request\
+\
+\
+\
+\
+\
+\
+To switch between branches, do git check out master\
+\
+Git pull origin feature......\
+\
+\
+\
+\
+\
+Create new branch git checkout -b fix/loop\
+Git pull origin feature/stuarts_branch\
+\
+Git switch master //changes you to master\
+\
+just a note on pushing a new branch once you have done a commit. you will need to specify that the branch is upstream. this is only needed ONCE for the first push on any new branch. after that you can just use commits and pushes normally.\
+10:38\
+eg in my case: git push --set-upstream origin feature/stuarts_branch\
+\
+\
+this is a nice article if you want to reopen a accidentaly deleted branch https://confluence.atlassian.com/bitbucketserverkb/how-to-restore-a-deleted-branch-779171728.html\
+\
+\
+Remember the git checkout main command to return to main branch\
+\
+git branch -d <branch>\
+ \
+Git stash to get rid of saved files after a branch delete you no longer need\
+\
+\
+\
+\
+\
+PDA Guidance Part 2:\
+\
+Still need to do the APIs one. P16 I think?\
+\
+\
+From the project you need to gather the following:\
+\
+\
+1st one is acceptance criteria\
+User is able to add the game or view the game,\
+Describe the above\
+Pass/fail\
+\
+2nd\
+System interaction diagrams\
+Sequence - the data flow diagram - look at the homework assignment from week8 Monday or Tuesday\
+\
+Collaboration diagram - how does the program work, what gets passed around \
+\
+Bug tracking report\
+What errors did we get, what was the solution\
+Had a bracket error, solution was to fix the bracket sequence etc,\
+Cors error etc, installed cars\
+\
+\
+Inheritance diagrams - we can skip\
+\
+\
+\
+GitHub contributors : take a screenshot \
+\
+Project planning: excel, paper, miro, whatever you used to plan, discussion on slack channel, diagram?\
+\
+Project brief - screenshot of md\
+\
+Acceptance criteria- what will and will not work\
+\
+System interaction diagrams - 2 diagrams\
+\
+Object diagram - 2 object diagrams\
+\
+Planning information - plain white screen to full on project\
+\
+Same as AD3 - need two object diagrams like you did before for python\
+\
+\
+Bug tracking\
+07889342105\
+\
+\
+\
+\
+Animals\
+\
+Photography\
+\
+Science and math\
+\
+Environment\
+\
+Sport\
+\
+Social\
+\
+\
+\
+\
+\
+On the Animal Card, need to do a click handle function which redirects to a pop up card that shows up on top of everything.\
+\
+\
+  <h3>Region: </h3>\
+                \
+\
+\
+\
+\
+ \
+// react modal - install and use\
+\
+\
+In order to use the react modal  \
+\
+Each animal will need own modal\
+\
+Within animal card, there will be a modal\
+\
+alternative: Animal details route, take animals as argument, pass animal to that component\
+\
+\
+\
+\
+\
+Read me\
+PDA\
+Presentation\
+\
+\
+
+\fs48 \
+
+\f2\b \ul 											Educational App
+\f0\b0 \ulnone \
+\
+The BBC are looking to improve their online offering of educational content by developing\
+some interactive browser applications that display information in a fun and interesting way.\
+Your task is to make an a Minimum Viable Product or prototype to put forward to them -\
+this may only be for a small set of information, and may only showcase some of the\
+features to be included in the final app.\
+\
+
+\f2\b \ul 												MVP
+\f0\b0 \ulnone \
+A user should be able to:\
+\
+view some educational content on a particular topic\
+be able to interact with the page to move through different sections of content\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ri-7877\pardirnatural\partightenfactor0
+
+\f2\b \cf0 \ul \ulc0 											Extensions
+\f0\b0 \ulnone \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+Use an API to bring in content or a database to store information.\
+\
+Use login functionality that allows a user to log in and store or bookmark items as favourites.\
+\
+Have a page besides homepage with content that has embedded links to other websites\
+\
+Have a timed pop up that displays after a set time and can be closed by clicking\
+on overlay or pressing the ESC key\
+\
+\
+\
+\
+\
+\
+
+\fs24 Week 10: Monday 10 June: Java\
+\
+Strictly typed language, every variable needs a type like int string var (var is only in the latest one)\
+\
+\
+Maven is like nom\
+\
+To copy pwd , do cp -r 
+\f3\fs22 \cf2 \cb3 \CocoaLigature0 /Users/user/codeclan_work/ros_classnotes/week_10/day_1 . (So its cp space flag r space PASTELINK space dot.\
+\
+\
+\
+\
+\
+\
+\
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\
+Day 2:Tuesday 11 Jan- Java\
+\
+\
+Command B to navigate through all the instances of a method or a variable in a file.\
+\
+\
+\
+Week 11 day 1 Monday 17 January:\
+Interfaces\
+Polymorphism\
+Lab\
+\
+\
+Polymorphism = many shapes\
+\
+Wilma Flintstone  is a parent, a brain surgeon, and a parent. \
+Tech worker object inherited from an abstract class Employee was both a tech worker and an employee. So that tech worker class is polymorphic.\
+\
+A class\
+\
+\
+Week 11 Day 2 Tuesday 18 Jan\
+\
+\
+Composition and Aggregation\
+\
+\
+Aggregation is a way to getting behaviours into your classes without inheritances which can otherwise get messy.\
+\
+\
+Composition and Aggregation Lab\
+\
+Homework\
+\
+\
+\
+For project:\
+Remember you have all the notes and solutions to refer back to.\
+\
+React might be the best way forward so you will need to go over it all.\
+\
+Week 12 day 1 Monday 24 January. This week we receive our projects on Thursday:\
+\
+Spring!\
+Intellij \
+\
+Idk, 3 places to check for jdk versions, under importing, under project structure.. it should be 1.8 . \
+Pom.xml has the versions you are using.\
+\
+Spring:\
+Framework or umbrella type application.\
+Spring boot, spring Mbc, spring socket,  etc. \
+Boot is the core. \
+Framework is the core.\
+Data an be used for data.\
+Spring web services.\
+So on and so forth. \
+\
+\
+Mongo Postgres or sql for final project instead of jpa or hibernate\
+\
+Front end will be react js\
+\
+Looking forward from parent to child or user to folder\
+Back reference is from child to parent or files to user\
+\
+\
+\
+Any tech any language\
+Devops day on Monday - AWS - Jenkins, octopus etc \
+\
+\
+Gym application \
+\
+For postgres\
+\pard\pardeftab720\partightenfactor0
+
+\fs30 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 to connect to postgres do the following\cb1 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278402682109"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:13}}\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf4 \cb7 spring.datasource.url=jdbc:{\field{\*\fldinst{HYPERLINK "postgresql://localhost:5432/pirates_db"}}{\fldrslt postgresql://localhost:5432/pirates_db}} (or whatever your db is called)\
+spring.datasource.username=postgres\
+spring.datasource.password=password\
+spring.jpa.hibernate.ddl-auto=create-drop\
+spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true\
+
+\f0\fs26 \cf8 \cb5 \strokec8 (edited)
+\fs30 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278426472849"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:13}}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 in your console run createdb pirates_db (or whatever your db is called) (creates an empty postgres sql db)
+\fs26 \cf8 \strokec8 \'a0(edited)\'a0
+\fs30 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278461604219"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:14}}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 change your application properties to the above (remember to flick between create-drop and update to avoid losing data)only use create_drop the very first time to load data\cb1 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278481389019"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:14}}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 in your maven pom.xml add this to dependancies, you might need to run the maven reload (blue refresh circle in top left corner)
+\fs26 \cf8 \strokec8 \'a0(edited)\'a0
+\fs30 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278482933049"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:14}}\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf4 \cb7 <dependency>\
+   <groupId>org.postgresql</groupId>\
+   <artifactId>postgresql</artifactId>\
+</dependency>\
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278492361359"}}{\fldrslt 
+\f0 \cf6 \cb5 \strokec6 10:14}}
+\f0\fs30 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 and thats it. it will (should...) work :)\cb1 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278590386399"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:16}}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 use postico for a gui based DB browser\cb1 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278643985199"}}{\fldrslt 
+\fs24 \cf6 \cb5 \strokec6 10:17}}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 or psql for CLI based\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+
+\f2\b\fs26 \cf9 \cb5 \strokec9 New\cb1 \
+\pard\pardeftab720\qr\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://codeclanteam.slack.com/archives/C02GDKG34CU/p1643278929614619"}}{\fldrslt 
+\f0\b0\fs24 \cf6 \cb10 \strokec6 10:22}}
+\f0\b0\fs30 \cf4 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb10 and the nice part about postgres/mysql/mongo/MsSQL. you can still query the db evne if your server is not running\cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\fs48 \
+\
+\
+\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f5\b\fs64 \cf11 \cb5 \expnd0\expndtw0\kerning0
+Workout-Tracker-FinalProject\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f6\b0\fs32 \cf11 \cb5 Workout-Tracker is ap app built with React-Spring that works as an exercise log to record a workout and view previous workout data.\cb1 \
+\cb5 MVP: user is able to view list of muscles, user is able to view list of exercises within muscles, user is able to record a set with weight, reps, and a comment, user is able to view a complete workout, user is able to delete a set, user is able to delete an exercise, user is able to view previous workouts via a calendar view.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf11 \cb5 Extension: user is able to set their profile (age, weight, height), user is able to view their profile, user is able to see a workout timer in the top right corner, a completed workout shows exercise duration.
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+\
+\
+
+\fs24 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

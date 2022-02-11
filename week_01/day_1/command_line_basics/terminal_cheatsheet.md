@@ -1,0 +1,21 @@
+# Terminal Cheatsheet
+- cd - current directory
+ - man -ls lists all commands available to you
+ - ctrl + d - stops everything - like a running process
+- ls - list files and folders
+- ls -1 - list files with more details
+- ls -al - list all files and folders and hidden ones with even more details
+- la - same as ls -al which is to list all files and folders and hidden ones with even more details
+- pwd - present working directory
+- rm -r removes a file or directory recursively
+- rm - deletes a file
+- rmdir - deletes a directory
+- mkdir - create new directory
+- touch - create a file
+- mv - move a file or rename it
+- open - to open a file
+- q - to quit out of a command
+- code . - opens file in vscode
+- cd . this directory
+- cd .. previous directory
+- cd ... parent directory
